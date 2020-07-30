@@ -1,20 +1,22 @@
 {
   "name": "build-your-own-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.dev.js --mode development",
-    "build": "webpack --config webpack.prod.js --mode production",
-    "preview": "npm run build && http-server dist"
+    "build": "webpack --config webpack.prod.js --mode production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zangbianxuegu/build-your-own-react.git"
   },
-  "author": "",
+  "author": "zangbianxuegu",
   "license": "MIT",
+  "keywords": [
+    "react"
+  ],
   "bugs": {
     "url": "https://github.com/zangbianxuegu/build-your-own-react/issues"
   },
